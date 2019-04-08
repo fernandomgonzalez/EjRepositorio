@@ -22,9 +22,9 @@ public class Principal {
         Scanner teclado = new Scanner(System.in);
         System.out.print("¿Cual es tu nombre? ");
         nombre = teclado.nextLine();
-        System.out.print("Introduce un mensaje para empezar la práctica de repositorios: ");
+        System.out.print("Escribe un mensaje para empezar la práctica de repositorios: ");
         mensaje = teclado.nextLine();
-        System.out.println( nombre+ " te manda un mensaje: "+mensaje);
+        
         
        
         CCuenta c1 = new CCuenta("Rita La Cantaora","344-55-11",0,12.5);

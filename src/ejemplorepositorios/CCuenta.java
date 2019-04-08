@@ -19,6 +19,38 @@ public class CCuenta {
     private int saldo;
     private double tipoInteres;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(String cuenta) {
+        this.cuenta = cuenta;
+    }
+
+    public int getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(int saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getTipoInteres() {
+        return tipoInteres;
+    }
+
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
+    }
+
     
     // Constructor con parámetros para iniciar todas las propiedades de la clase
 
